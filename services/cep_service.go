@@ -11,7 +11,7 @@ import (
 
 var (
 	brazilAPIURL = "https://brasilapi.com.br/api/cep/v1/%s"
-	viaCEPURL    = "http://viacep.com.br/ws/%s/json/"
+	viaCEPURL    = "https://viacep.com.br/ws/%s/json/"
 )
 
 func GetFastestCEP(cep string) (interface{}, string, error) {
